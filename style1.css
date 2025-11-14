@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    padding-top: 8px;
+    background-color: pink;
+    color:black;
+    text-align: center;
+    
+}
+
+p{
+    font-size:45px;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+.p1{
+    font-size: 20px;
+       
+}
+.navigation{
+    
+    
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea {
+    width: 500px;
+    height: 20px;
+    margin-right: 40px;
+    flex: none;
+    align-items: center;
+}
+.nbar{
+    text-align: right;
+    padding: 20px;
+    
+}
+.nbar li{
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+
+.card{
+    background-color: chocolate;
+    color: white;
+    width: 200px;
+    height: 300px;
+    text-align:center;
+    padding: 10px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+.card1{
+    background-color:maroon;
+    color: white;
+    width: 200px;
+    height: 300px;
+    text-align:center;
+    padding: 10px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+.card:hover{
+    zoom:105%;
+}
+
+.starter-content,.main-content,.desert-content,.chef,.wed{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+.name1 li,.name2 li,.name3 li,.name4 li,.name5 li{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.price1 li,.price2 li,.price3 li,.price5 li{
+  text-align: right;
+  list-style: none;
+  margin-bottom: 20px;
+  
+}
+.price4 li{
+    margin-bottom: 40px;
+    text-align: right;
+    list-style: none;
+}
+ul.name1,ul.name2,ul.name3,ul.name4,ul.name5{
+    padding: 0;
+    width: 144px;
+}
+ul.price1,ul.price2,ul.price3,ul.price4,ul.price5{
+    padding-left: 30px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}  
+.footer-text{
+    padding: 50px;
+} 
+.tempt{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: rgb(137, 215, 218);
+    height: 300px;
+    width: 100%;
+}
+.text{
+    width: 200px;
+    height: 200px;}
+    .text h2{
+        font-size: 60px;
+        margin: 0;
+        padding: 10px;
+    }
+
+.img{
+    width: 310px;
+    height: 200px;
+}
+.img img{
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+}
+.img-container{
+    
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    overflow-x: scroll;
+    
+}
+.img-container img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
