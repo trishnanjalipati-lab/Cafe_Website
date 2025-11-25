@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/order.css">
+    
+</head>
+<body>
+    <header>
+        <p>Café Delight</p>
+        <p class="p1">Fresh Taste Every Day</p>
+    </header>
+    <div class="ord_details">
+        <form id="order">
+        <label for="item">Dish Name:</label>
+        <select id="item" name="item">
+    <option >Select</option>
+  <option >Chowmein</option>
+  <option >Pasta</option>
+  <option >Noodles</option>
+  <option >Sandwich</option>
+  <option >Sweetcorn</option>
+  <option >Chicken Pakoda</option>
+  <option >Egg curry</option>
+  <option >Mushroom masala</option>
+  <option >Chicken Irani</option>
+  <option >Panner butter masala</option>
+  <option >Fried Rice</option>
+  <option >Biriyani</option>
+  <option >Cold-coffee</option>
+  <option >Butterscotch Icecream</option>
+  <option >Brownie</option>
+  <option >Waffle</option>
+  <option >Rasmalai</option>
+  <option >Sundae</option>
+        </select>
+        <br>
+        <label for="qty">Quantity</label>
+        <input type="number" id="qty">
+        <br>
+        <br>
+        <button class="btn">Place Order</button> 
+    </form>
+</div>
+    <div class="h"><h2 style="margin-left: 20px;">Order Details</h2></div>
+    <div class="label-container">
+        <div class="label">S.No</div>
+        <div class="label">Item</div>
+        <div class="label">Qty</div>
+    </div>
+    <div class="order-container"></div>
+    <script src="js/order.js"></script>
+</body>
+</html>

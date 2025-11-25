@@ -31,12 +31,15 @@ p{
     align-items: center;
 }
 
-textarea {
+form {
     width: 500px;
     height: 20px;
     margin-right: 40px;
     flex: none;
     align-items: center;
+}
+input{
+    width: 500px;
 }
 .nbar{
     text-align: right;
@@ -109,6 +112,18 @@ ul.name1,ul.name2,ul.name3,ul.name4,ul.name5{
 ul.price1,ul.price2,ul.price3,ul.price4,ul.price5{
     padding-left: 30px;
 }
+.blink,.button{
+    width: 200px;
+    height: 100px;
+    font-size: larger;
+
+    background-color: brown;
+    color: white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
 footer{
     background-color: black;
     display: flex;
@@ -166,3 +181,4 @@ footer{
     margin-left: 20px;
     flex-shrink: 0;
 }
+
