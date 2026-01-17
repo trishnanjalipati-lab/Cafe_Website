@@ -199,9 +199,13 @@ footer{
     height: auto;
    }
    .text{
-    width: 70%;
+    width: 80%;
     height: auto;
     align-items: center;
+   }
+   .text h2{
+    width: 100%;
+    padding: 0;
    }
    .img{
     height: auto;
