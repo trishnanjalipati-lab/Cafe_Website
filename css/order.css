@@ -95,3 +95,17 @@ form{
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 768px){
+    .label-container{
+        justify-content: space-around;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .label{
+        margin: 0;
+    }
+    .order{
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+}

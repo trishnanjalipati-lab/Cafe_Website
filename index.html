@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café Delight</title>
     <link rel="icon" type="image/x-icon" href="assets/a-logo-featuring-the-word-cafe-in-various-typography-styles-for-a-trendy-cafe-brand-experiment-with-different-typography-styles-for-a-minimalist-cafe-logo-free-vector.jpg">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="style2.css">
 
 </head>
 <body>
@@ -16,10 +16,10 @@
     
     <div class="navigation">
     <form>
-        <input type="text" name="search" placeholder="Search">
+        <input type="text" id="searchInput" placeholder="Search">
     </form>
     <ul class="nbar">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -44,14 +44,15 @@
         <div class="card">
             Starters
             <div class="starter-content">
-                <ul class="name1">
-                    <li>Chowmein</li>
-                    <li>Pasta</li>
-                    <li>Noodles</li>
-                    <li>Sandwich</li>
-                    <li>Sweetcorn</li>
-                    <li>Chicken Pakoda</li>
-                </ul>
+                        <ul class="name1">
+        <li class="menu-item">Chowmein</li>
+        <li class="menu-item">Pasta</li>
+        <li class="menu-item">Noodles</li>
+        <li class="menu-item">Sandwich</li>
+        <li class="menu-item">Sweetcorn</li>
+        <li class="menu-item">Chicken Pakoda</li>
+        </ul>
+
                 <ul class="price1">
                     <li>₹50</li>
                     <li>₹60</li>
@@ -65,15 +66,15 @@
         </div>
         <div class="card">
             Main Course
-            <div class="main-content">
-                <ul class="name2">
-                    <li>Biriyani</li>
-                    <li>Fried Rice</li>
-                    <li>Panner butter masala</li>
-                    <li>Chicken Irani</li>
-                    <li>Mushroom masala</li>
-                    <li>Egg curry</li>
-                </ul>
+            <div class="main-content"><ul class="name2">
+  <li class="menu-item">Biriyani</li>
+  <li class="menu-item">Fried Rice</li>
+  <li class="menu-item">Panner butter masala</li>
+  <li class="menu-item">Chicken Irani</li>
+  <li class="menu-item">Mushroom masala</li>
+  <li class="menu-item">Egg curry</li>
+</ul>
+
                 <ul class="price2">
                     <li>₹120</li>
                     <li>₹100</li>
@@ -88,13 +89,14 @@
             Desserts
         <div class="desert-content">
                 <ul class="name3">
-                    <li>Cold-coffee</li>
-                    <li>Butterscotch Icecream</li>
-                    <li>Brownie</li>
-                    <li>Waffle</li>
-                    <li>Rasmalai</li>
-                    <li>Sundae</li>
-                </ul>
+  <li class="menu-item">Cold-coffee</li>
+  <li class="menu-item">Butterscotch Icecream</li>
+  <li class="menu-item">Brownie</li>
+  <li class="menu-item">Waffle</li>
+  <li class="menu-item">Rasmalai</li>
+  <li class="menu-item">Sundae</li>
+</ul>
+
                 <ul class="price3">
                     <li>₹60</li>
                     <li>₹40</li>
@@ -109,9 +111,10 @@
             Chef's Special
             <div class="chef">
             <ul class="name4">
-                <li>Special Afgani Chicken Biriyani</li>
-                <li>Barbeque Chicken Pizza</li>
-            </ul>
+  <li class="menu-item">Special Afgani Chicken Biriyani</li>
+  <li class="menu-item">Barbeque Chicken Pizza</li>
+</ul>
+
             <ul class="price4">
                 <li>₹200</li>
                 <li>₹130</li>
@@ -122,8 +125,11 @@
             Menu of the Day
             <div class="wed">
             <ul class="name5">
-                <li>Hyderabadi Chicken Biriyani with Chilly Chicken</li>
-            </ul>
+  <li class="menu-item">
+    Hyderabadi Chicken Biriyani with Chilly Chicken
+  </li>
+</ul>
+
             <ul class="price5">
                 <li>₹200</li>
             </ul>
@@ -157,6 +163,6 @@
         <h4>© 2025 Café Delight</h4>
         </div>
     </footer>
-    <script src="script.js" defer></script>
+    <script src="js/home.js" ></script>
 </body>
 </html>
